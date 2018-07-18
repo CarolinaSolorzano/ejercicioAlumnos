@@ -1,0 +1,35 @@
+h1 {
+    text-align: center;
+}
+
+.playground {
+    display: flex;
+    justify-content: center;
+}
+
+#square-test {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+
+    border: 1px solid black;
+    overflow: auto;
+
+}
+
+#square-test span {
+    display: block;
+}
+
+#square-log,
+#square-test{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border: 1px solid black;
+    overflow: hidden;
+}
+#square-log span,
+#square-test span{
+    display: block;
+}
